@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	float radius_in_metres = 0.0f;
+    float radius_in_metres = 0.0f;
     printf("Enter the radius: ");
     scanf("%f", &radius_in_metres);
     float volume_of_sphere = 0.0f;
