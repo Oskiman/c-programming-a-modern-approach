@@ -13,5 +13,6 @@ int main(void)
     float tax = 0.05f;  // Tax at 5%
     float amount_after_tax = amount_entered + (amount_entered * tax);
     printf("With 5 per cent tax added, %.2f is %.2f\n", amount_entered, amount_after_tax);
-	return 0;
+	
+    return 0;
 }
