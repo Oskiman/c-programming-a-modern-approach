@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int radius_in_metres = 10;
+    int radius_in_metres = 10;
     float volume_of_sphere = 0.0f;
     const float pi = 3.14f;
     volume_of_sphere = (((4.0f / 3.0f) * pi) * radius_in_metres * radius_in_metres * radius_in_metres);
