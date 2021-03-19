@@ -15,5 +15,6 @@ int main(void)
     // Polynomial
     total = ((3 * (x * x * x * x * x) + (2 * (x * x * x * x)) - (5 * (x * x * x)) - (x * x) + (7 * x) - 6));
     printf("The total is: %.2f\n", total);
-	return 0;
+	
+    return 0;
 }
