@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	printf("Enter an amount of dollars: ");
+    printf("Enter an amount of dollars: ");
     int amount_of_dollars = 0;
     scanf("%d", &amount_of_dollars);
     
@@ -28,5 +28,5 @@ int main(void)
     printf("$5 bills: %d\n", amount_of_fives);
     printf("$1 bills: %d\n", amount_of_ones);
     
-	return 0;
+    return 0;
 }
