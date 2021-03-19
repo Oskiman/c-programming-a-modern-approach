@@ -8,7 +8,7 @@
 int main(void)
 {
     float amount_entered = 0.0f;
-	printf("Enter an amount in Dollars and Cents: ");
+    printf("Enter an amount in Dollars and Cents: ");
     scanf("%f", &amount_entered);
     float tax = 0.05f;  // Tax at 5%
     float amount_after_tax = amount_entered + (amount_entered * tax);
