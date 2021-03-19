@@ -6,7 +6,7 @@
 
 int main(int argc, char **argv)
 {
-	printf("Enter a value for x: ");
+    printf("Enter a value for x: ");
     float x = 0.0f;
     scanf("%f", &x);
     
