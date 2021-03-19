@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	printf("Enter amount of loan: ");
+    printf("Enter amount of loan: ");
     float loan_amount = 0.0f;
     scanf("%f", &loan_amount);
     
@@ -34,5 +34,6 @@ int main(void)
     balance_remaining = balance_remaining + (balance_remaining * monthly_interest_rate);
     
     printf("Balance remaining after first monthly payment: $%.2f\n", balance_remaining);
-	return 0;
+	
+    return 0;
 }
