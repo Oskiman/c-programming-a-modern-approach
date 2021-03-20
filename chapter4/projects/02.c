@@ -17,6 +17,5 @@ int main(void)
     
     printf("The reversal is: %d%d%d\n", rnum2, rnum1, rnum3);
     
-    
 	return 0;
 }
