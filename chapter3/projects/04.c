@@ -8,10 +8,11 @@
 
 int main(void)
 {
-	printf("Enter phone number [(xxx) xxx-xxxx]: ");
+    printf("Enter phone number [(xxx) xxx-xxxx]: ");
     int area_code = 0, num3 = 0, num4 = 0;
     scanf("(%d) %d-%d", &area_code, &num3, &num4);
     
     printf("You entered: %d.%d.%d\n", area_code, num3, num4);
-	return 0;
+	
+    return 0;
 }
