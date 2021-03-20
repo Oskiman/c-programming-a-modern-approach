@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	printf("Enter the numbers from 1 to 16 in any order: ");
+    printf("Enter the numbers from 1 to 16 in any order: ");
     int num1 = 0, num2 = 0, num3 = 0, num4 = 0, num5 = 0, num6 = 0, num7 = 0, num8 = 0;
     int num9 = 0, num10 = 0, num11 = 0, num12 = 0, num13 = 0, num14 = 0, num15 = 0, num16 = 0;
     
