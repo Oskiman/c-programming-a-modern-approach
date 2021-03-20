@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int num1, denom1, num2, denom2, result_num, result_denom;
+    int num1, denom1, num2, denom2, result_num, result_denom;
     
 //    printf("Enter first fraction: ");
 //    scanf("%d/%d", &num1, &denom1);
@@ -22,5 +22,6 @@ int main(void)
     result_denom = denom1 * denom2;
     
     printf("The sum is %d/%d\n", result_num, result_denom);
-	return 0;
+	
+    return 0;
 }
