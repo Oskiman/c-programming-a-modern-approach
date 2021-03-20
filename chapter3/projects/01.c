@@ -9,10 +9,11 @@
 
 int main(void)
 {
-	printf("Enter a date (mm/dd/yyyy): ");
+    printf("Enter a date (mm/dd/yyyy): ");
     int month = 0, day = 0, year = 0;
     scanf("%d/%d/%d", &month, &day, &year);
     
     printf("You entered the date: %d%d%d\n", year, month, day);
-	return 0;
+	
+    return 0;
 }
