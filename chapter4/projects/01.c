@@ -15,6 +15,5 @@ int main(void)
     int rnum2 = num1 % 10;
     printf("The reversal is: %d%d\n", rnum2, rnum1);
     
-    
 	return 0;
 }
