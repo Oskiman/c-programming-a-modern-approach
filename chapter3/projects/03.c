@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	printf("Enter ISBN: ");
+    printf("Enter ISBN: ");
     int gs1_prefix = 0, group_id = 0, pub_code = 0, item_number = 0, check_digit = 0;
     scanf("%d-%d-%d-%d-%d", &gs1_prefix, &group_id, &pub_code, &item_number, &check_digit);
     
@@ -18,5 +18,5 @@ int main(void)
     printf("Item Number: %d\n", item_number);
     printf("Check Digit: %d\n", check_digit);
     
-	return 0;
+    return 0;
 }
