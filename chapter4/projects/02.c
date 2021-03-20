@@ -10,7 +10,7 @@ int main(void)
 {
 	printf("Enter a three-digit number: ");
     int num = 0;
-    scanf("%d", &num);
+    scanf("%d", &num); 
     int rnum3 = (num /100) % 10;    // last digit
     int rnum1 = (num / 10) % 10;   // middle digit
     int rnum2 = num % 10;   // first digit
