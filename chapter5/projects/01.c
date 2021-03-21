@@ -27,6 +27,6 @@ int main(void)
     
     printf("The number %d has %d digits\n", num, digits);
 	
-	
+
 	return 0;
 }
