@@ -22,5 +22,6 @@ int main(void)
     else{
     printf("Equivalent 12 hour time: %d:%d AM\n", hours, minutes);
     }
+	
 	return 0;
 }
